@@ -1,0 +1,31 @@
+table {
+    width:100vw;
+}
+.head {
+    justify-content: center;
+    display: flex;
+    font-family: 'helvetica';
+    color: rgb(17, 17, 17);
+}
+.head-block,
+.head-blocks {
+    border: 1px solid rgb(180, 180, 180);
+    /* padding: 5px 35px; */
+    width:155px;height:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.head-blocks {
+    width:155px;height:39px;
+    font-size: 17px;
+    font-style: italic;
+}
+.mhz {
+    color: rgb(0, 0, 114);
+    text-decoration: underline;
+}
+.green {
+    background-color: green;
+}
