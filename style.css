@@ -1,21 +1,25 @@
-table {
-    width:100vw;
+#everything {
+    display: flex;
+    flex-direction: row;
 }
 .head {
     justify-content: center;
     display: flex;
     font-family: 'helvetica';
-    color: rgb(17, 17, 17);
 }
 .head-block,
 .head-blocks {
     border: 1px solid rgb(180, 180, 180);
     /* padding: 5px 35px; */
-    width:155px;height:30px;
+    width:155px;height:32px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.head-block p {
+    width: 80%;
     font-size: 14px;
+    color: rgb(58, 58, 58);
 }
 .head-blocks {
     width:155px;height:39px;
@@ -28,4 +32,15 @@ table {
 }
 .green {
     background-color: green;
+}
+.small {
+    visibility: hidden;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:35px;width:35px;
+    margin-top: 2px;
 }

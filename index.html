@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,180 +8,202 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <table>
-        <thead>
-            <tr class='head'>
-                <th class='head-block'>Frequency</th>
-                <th class='head-block'>DOCSIS</th>
-                <th class='head-block'>Channel Number</th>
-                <th class='head-block'>Channel Name</th>
-                <th class='head-block'>Modem Health</th>
-                <th class='head-block'>Account Health</th>
-                <th class='head-block'>Node Health</th>
-                <th class='head-block'>Hub Health</th>
-            </tr>
-            <tr class='head'>
-                <th class='head-blocks mhz'>3 MHz</th>
-                <th class='head-blocks'>--</th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-            </tr>
-            <tr class='head'>
-                <th class='head-blocks mhz'>9 MHz</th>
-                <th class='head-blocks'>ATDMA</th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-            </tr>
-            <tr class='head'>
-                <th class='head-blocks mhz'>15 MHz</th>
-                <th class='head-blocks'>--</th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-            </tr>
-            <tr class='head'>
-                <th class='head-blocks mhz'>21 MHz</th>
-                <th class='head-blocks'>OFDMA</th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-            </tr>
-            <tr class='head'>
-                <th class='head-blocks mhz'>23 MHz</th>
-                <th class='head-blocks'>--</th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-            </tr>
-            <tr class='head'>
-                <th class='head-blocks mhz'>27 MHz</th>
-                <th class='head-blocks'>--</th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-            </tr>
-            <tr class='head'>
-                <th class='head-blocks mhz'>31 MHz</th>
-                <th class='head-blocks'>--</th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-            </tr>
-            <tr class='head'>
-                <th class='head-blocks mhz'>37 MHz</th>
-                <th class='head-blocks'>ATDMA</th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-            </tr>
-            <tr class='head'>
-                <th class='head-blocks mhz'>39 MHz</th>
-                <th class='head-blocks'>--</th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-            </tr>
-            <tr class='head'>
-                <th class='head-blocks mhz'>43 MHz</th>
-                <th class='head-blocks'>OFDMA</th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-            </tr>
-            <tr class='head'>
-                <th class='head-blocks mhz'>45 MHz</th>
-                <th class='head-blocks'>--</th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-            </tr>
-            <tr class='head'>
-                <th class='head-blocks mhz'>47 MHz</th>
-                <th class='head-blocks'>OFDMA</th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-            </tr>
-            <tr class='head'>
-                <th class='head-blocks mhz'>51 MHz</th>
-                <th class='head-blocks'>--</th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-            </tr>
-            <tr class='head'>
-                <th class='head-blocks mhz'>53 MHz</th>
-                <th class='head-blocks'>--</th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-            </tr>
-            <tr class='head'>
-                <th class='head-blocks mhz'>59 MHz</th>
-                <th class='head-blocks'>OFDMA</th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-            </tr>
-            <tr class='head'>
-                <th class='head-blocks mhz'>67 MHz</th>
-                <th class='head-blocks'>OFDMA</th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-                <th class='head-blocks green'></th>
-            </tr>
-        </thead>
-    </table>
+    <div id='everything'>
+        <table>
+            <thead>
+                <tr class='head'>
+                    <th class='head-block'>
+                        <p>Frequency</p>
+                    </th>
+                    <th class='head-block'>
+                        <p>DOCSIS Profile</p>
+                    </th>
+                    <th class='head-block'>
+                        <p>Channel Number</p>
+                    </th>
+                    <th class='head-block'>
+                        <p>Channel Name</p>
+                    </th>
+                    <th class='head-block small'>
+                        <p>Modem Health</p>
+                    </th>
+                    <th class='head-block small'>
+                        <p>Account Health</p>
+                    </th>
+                    <th class='head-block small'>
+                        <p>Node Health</p>
+                    </th>
+                    <th class='head-block small'>
+                        <p>Hub Health</p>
+                    </th>
+                </tr>
+                <tr class='head'>
+                    <th class='head-blocks mhz'>3 MHz</th>
+                    <th class='head-blocks'>--</th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                </tr>
+                <tr class='head'>
+                    <th class='head-blocks mhz'>9 MHz</th>
+                    <th class='head-blocks'>ATDMA</th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                </tr>
+                <tr class='head'>
+                    <th class='head-blocks mhz'>15 MHz</th>
+                    <th class='head-blocks'>--</th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                </tr>
+                <tr class='head'>
+                    <th class='head-blocks mhz'>21 MHz</th>
+                    <th class='head-blocks'>OFDMA</th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                </tr>
+                <tr class='head'>
+                    <th class='head-blocks mhz'>23 MHz</th>
+                    <th class='head-blocks'>--</th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                </tr>
+                <tr class='head'>
+                    <th class='head-blocks mhz'>27 MHz</th>
+                    <th class='head-blocks'>--</th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                </tr>
+                <tr class='head'>
+                    <th class='head-blocks mhz'>31 MHz</th>
+                    <th class='head-blocks'>--</th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                </tr>
+                <tr class='head'>
+                    <th class='head-blocks mhz'>37 MHz</th>
+                    <th class='head-blocks'>ATDMA</th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                </tr>
+                <tr class='head'>
+                    <th class='head-blocks mhz'>39 MHz</th>
+                    <th class='head-blocks'>--</th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                </tr>
+                <tr class='head'>
+                    <th class='head-blocks mhz'>43 MHz</th>
+                    <th class='head-blocks'>OFDMA</th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                </tr>
+                <tr class='head'>
+                    <th class='head-blocks mhz'>45 MHz</th>
+                    <th class='head-blocks'>--</th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                </tr>
+                <tr class='head'>
+                    <th class='head-blocks mhz'>47 MHz</th>
+                    <th class='head-blocks'>OFDMA</th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                </tr>
+                <tr class='head'>
+                    <th class='head-blocks mhz'>51 MHz</th>
+                    <th class='head-blocks'>--</th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                </tr>
+                <tr class='head'>
+                    <th class='head-blocks mhz'>53 MHz</th>
+                    <th class='head-blocks'>--</th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                </tr>
+                <tr class='head'>
+                    <th class='head-blocks mhz'>59 MHz</th>
+                    <th class='head-blocks'>OFDMA</th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                </tr>
+                <tr class='head'>
+                    <th class='head-blocks mhz'>67 MHz</th>
+                    <th class='head-blocks'>OFDMA</th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                    <th class='head-blocks green small'></th>
+                </tr>
+            </thead>
+        </table>
+        <button id='button'>></button>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
